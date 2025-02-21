@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-I trained this model which implements a Vision Transformer (ViT) model to classify handwritten digits from the MNIST dataset, a well-known benchmark in machine learning consisting of 70,000 (60,000 training and 10,000 testing) images of handwritten digits (0-9), each sized 28x28 pixels. Also I only trained the model for only 10 epochs and it took 20 minutes to train so it can be improved with more epochs like 30 to get even better results. (For this training I got 97.77% accuracy on the test dataset.)
+I trained this model which implements a Vision Transformer (ViT) to classify handwritten digits from the MNIST dataset. This dataset is a well-known benchmark in machine learning, consisting of 70,000 images of handwritten digits (0-9), with 60,000 for training and 10,000 for testing, each sized 28x28 pixels.
 
 ## Objectives
 - Explore the effectiveness of transformer architectures in image classification tasks.
@@ -22,7 +22,7 @@ I trained this model which implements a Vision Transformer (ViT) model to classi
 ## Model Architecture
 The model utilizes the Vision Transformer architecture, which includes:
 - **Patch-based Attention Mechanism**: Input images are divided into patches and linearly embedded into a sequence of tokens.
-- **Multi-head Self-attention Layers**: Allow the model to focus on different parts of the image simultaneously.
+- **Multi-head Self-attention Layers**: These layers allow the model to focus on different parts of the image simultaneously.
 - **Feed-forward Neural Networks**: Each token is processed through a feed-forward network after the attention mechanism.
 
 ### Configuration
@@ -35,6 +35,8 @@ The model utilizes the Vision Transformer architecture, which includes:
 - **Input Channels**: 1 (for grayscale images)
 
 ## Training
+I trained the model for only 10 epochs, which took about 20 minutes. This is a starting point, and I believe that increasing the epochs to around 30 could yield even better results. During this training, I achieved a test accuracy of **97.77%** on the MNIST dataset.
+
 - **Loss Function**: Cross-Entropy Loss
 - **Optimizer**: Adam
 - **Learning Rate**: 3e-4
