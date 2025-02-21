@@ -1,4 +1,4 @@
-# Technical Note: Vision Transformer Model on the MNIST Dataset
+# Vision Transformer on MNIST Dataset
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=300&text=Vision+Transformer+on+MNIST&color=0:00A3E0,50:00BFFF,100:00CFFF&fontColor=ffffff&fontSize=60&desc=Machine+Learning+Project&descAlignY=65&animation=fadeIn">
@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-I trained this model which implements a Vision Transformer (ViT) to classify handwritten digits from the MNIST dataset. This dataset is a well-known benchmark in machine learning, consisting of 70,000 images of handwritten digits (0-9), with 60,000 for training and 10,000 for testing, each sized 28x28 pixels.
+I trained this model which implements a Vision Transformer (ViT) to classify handwritten digits from the MNIST dataset, a well-known benchmark in machine learning consisting of 70,000 images of handwritten digits (0-9), with 60,000 for training and 10,000 for testing, each sized 28x28 pixels. I only trained the model for 10 epochs, which took about 20 minutes. This is just a starting point, and I believe that increasing the epochs to around 30 could yield even better results. For this training, I achieved a test accuracy of **97.77%** on the MNIST dataset.
 
 ## Objectives
 - Explore the effectiveness of transformer architectures in image classification tasks.
@@ -34,16 +34,7 @@ The model utilizes the Vision Transformer architecture, which includes:
 - **Number of Attention Heads**: 4
 - **Input Channels**: 1 (for grayscale images)
 
-## Training
-I trained the model for only 10 epochs, which took about 20 minutes. This is a starting point, and I believe that increasing the epochs to around 30 could yield even better results. During this training, I achieved a test accuracy of **97.77%** on the MNIST dataset.
-
-- **Loss Function**: Cross-Entropy Loss
-- **Optimizer**: Adam
-- **Learning Rate**: 3e-4
-- **Batch Size**: 64
-- **Number of Epochs**: 10
-
-### Training Process
+## Training Process
 1. **Data Augmentation**: Random rotations and horizontal flips were applied to enhance the training dataset.
 2. **Model Training**: The model was trained on the training dataset, and the loss was monitored over epochs.
 
