@@ -1,0 +1,18 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Model files
+*.pth
+
+# Dataset files
+Dataset/ 
