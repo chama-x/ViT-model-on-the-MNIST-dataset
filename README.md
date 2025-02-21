@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-This project implements a Vision Transformer (ViT) model to classify handwritten digits from the MNIST dataset, a well-known benchmark in machine learning consisting of 70,000 images of handwritten digits (0-9), each sized 28x28 pixels.
+I trained this model which implements a Vision Transformer (ViT) model to classify handwritten digits from the MNIST dataset, a well-known benchmark in machine learning consisting of 70,000 (60,000 training and 10,000 testing) images of handwritten digits (0-9), each sized 28x28 pixels. Also I only trained the model for only 10 epochs and it took 20 minutes to train so it can be improved with more epochs like 30 to get even better results. (For this training I got 97.77% accuracy on the test dataset.)
 
 ## Objectives
 - Explore the effectiveness of transformer architectures in image classification tasks.
