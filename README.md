@@ -10,11 +10,11 @@ I trained this model which implements a Vision Transformer (ViT) to classify han
 
 Ps: After fine-tuning the model for long time with many best practices and techniques used by other models I have achieved over 99% accuracy for test run.
 Here is the part of my output:
-Epoch 1/30: 100%|██████████| 469/469 [00:22<00:00, 21.17it/s, loss=0.3798, acc=74.91%]
-Epoch 2/30: 100%|██████████| 469/469 [00:21<00:00, 22.14it/s, loss=0.4539, acc=93.16%]
-......
-Epoch 6/30: 100%|██████████| 469/469 [00:20<00:00, 22.57it/s, loss=0.0587, acc=98.07%]
-Epoch 12/30: 100%|██████████| 469/469 [00:20<00:00, 22.46it/s, loss=0.0002, acc=99.99%] 
+Epoch 1/30: 100%|██████████| 469/469 [00:22<00:00, 21.17it/s, loss=0.3798, acc=74.91%]<br>
+Epoch 2/30: 100%|██████████| 469/469 [00:21<00:00, 22.14it/s, loss=0.4539, acc=93.16%]<br>
+......<br>
+Epoch 6/30: 100%|██████████| 469/469 [00:20<00:00, 22.57it/s, loss=0.0587, acc=98.07%]<br>
+Epoch 12/30: 100%|██████████| 469/469 [00:20<00:00, 22.46it/s, loss=0.0002, acc=99.99%]<br>
 
 ## Objectives
 
